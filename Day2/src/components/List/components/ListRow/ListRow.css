@@ -1,0 +1,7 @@
+.buttonsContainer {
+  display: flex;
+}
+
+.buttonsContainer > div:first-child {
+  margin-right: 6px;
+}

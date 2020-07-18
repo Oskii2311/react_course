@@ -1,0 +1,28 @@
+.navigationList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navigationList li {
+  cursor: pointer;
+}
+
+.navigationList li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navigationList li a.active {
+  color: red;
+  text-decoration: underline;
+}
+
+.navigationList li:hover {
+  text-decoration: underline;
+}
+
+.navigationList li:first-child {
+  margin-right: 20px;
+}

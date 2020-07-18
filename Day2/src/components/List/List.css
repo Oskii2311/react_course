@@ -1,0 +1,41 @@
+.listElementChecked {
+  color: green;
+  text-decoration: line-through;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.listElement {
+  padding: 20px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listComponent {
+  width: 100%;
+}
+
+.removeButton {
+  font-size: 14px;
+  padding: 6px;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background: grey;
+  color: white;
+}

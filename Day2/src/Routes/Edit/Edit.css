@@ -1,0 +1,21 @@
+.container {
+  padding: 20px;
+  width: 600px;
+}
+
+.container > button {
+  height: 60px;
+  width: 300px;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.formInput {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  widows: 100%;
+  font-size: 24px;
+}
